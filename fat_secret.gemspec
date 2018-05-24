@@ -17,6 +17,9 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency('active_attr')
   gem.add_dependency('activesupport')
+  gem.add_dependency('faraday')
+  gem.add_dependency "faraday_middleware"
+  gem.add_dependency('faraday-manual-cache')
   # gem.add_dependency('typhoeus', '~> 0.5.0.rc')
   # gem.add_dependency('yajl-ruby')
 
